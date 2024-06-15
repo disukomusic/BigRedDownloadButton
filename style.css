@@ -1,0 +1,16 @@
+.github-download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.github-download-button:hover {
+  background-color: darkred;
+}

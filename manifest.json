@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub But For Idiot Babies",
+  "version": "1.0",
+  "description": "Do you suck at reading insutructions? Can you just not be bothered to read a single paragraph about how to install a program? Fret no further with GitHub But For Idiot Babies (tm) and download software like never before!",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
