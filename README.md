@@ -5,7 +5,9 @@ shamelessly made with chatgpt over the span of multiple hours while at work beca
 
 ## How to Install
 
-install via chrome extensions page (sorry firefox users, you're not the target demographic)
+install via chrome extensions page by dragging and dropping. (sorry firefox users, you're not the target demographic)
+
+chrome is stupid as hell and might autodelete the file because it thinks it's malware, if it does that just go to chrome://extensions and drag and drop the file from explorer onto the page
 
 ## Etc.
 
